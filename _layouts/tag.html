@@ -8,13 +8,14 @@ current: tag
 ---
 
 <!-- < dynamically overriding backgrounds for tags as well as descriptions -->
-{% if page.url contains 'fables' %}
-   {% assign tag_description='A series of short stories that make you think.' %}
-{% elsif page.url contains 'speeches' %}
+{% if page.url contains 'diary' %}
+   {% assign tag_description='Record life' %}
+{% elsif page.url contains 'web' %}
     {% assign new_cover='assets/images/cover7.jpg' %}
-    {% assign tag_description='Some of the greatest words ever spoken.' %}
-{% elsif page.url contains 'fiction' %}
+    {% assign tag_description='The problems I have encountered.' %}
+{% elsif page.url contains 'others' %}
     {% assign new_cover='assets/images/cover1.jpg' %}
+    {% assign tag_description='Something else.' %}
 {% endif %}
 
 <!-- < default}} -->
