@@ -9,12 +9,14 @@ current: tag
 
 <!-- < dynamically overriding backgrounds for tags as well as descriptions -->
 {% if page.url contains 'fables' %}
-   {% assign tag_description='A series of short stories that make you think.' %}
+   {% assign tag_description='Record life' %}
+   {% assign new_cover='assets/images/cover6.jpg' %}
 {% elsif page.url contains 'speeches' %}
     {% assign new_cover='assets/images/cover7.jpg' %}
-    {% assign tag_description='Some of the greatest words ever spoken.' %}
+    {% assign tag_description='The problems I have encountered.' %}
 {% elsif page.url contains 'fiction' %}
     {% assign new_cover='assets/images/cover1.jpg' %}
+    {% assign tag_description='Something else.' %}
 {% endif %}
 
 <!-- < default}} -->
