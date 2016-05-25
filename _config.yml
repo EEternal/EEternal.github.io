@@ -28,7 +28,7 @@ baseurl: /
 # Permalinks
 permalink: /:title
 # permalink: /author/:username
-permalink: /author/casper
+permalink: /author/parry
 # permalink: /tag/:tag
 
 
