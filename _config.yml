@@ -30,6 +30,8 @@ permalink: /:title
 # permalink: /author/:username
 permalink: /author/parry
 permalink: /tag/fables
+permalink: /tag/speeches
+permalink: /tag/fiction
 # permalink: /tag/:tag
 
 
