@@ -1,0 +1,12 @@
+.poem{
+	font-size:30px;
+	text-align:center;
+	line-height:130%;
+	position: relative;
+	top: 190px;
+}
+body{
+	background-image:url("/img/tmp.jpeg");
+	background-size: cover;
+	z-index: -1;
+}
